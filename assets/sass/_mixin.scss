@@ -1,1 +1,14 @@
-_mixin.scss
+@mixin background(){
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+@mixin font-style(){
+	font-size: 5rem;
+	font-weight:700;
+	font-style:bold;
+}
+@mixin margin(){
+	margin-top: 85px;
+	margin-left: 100px;
+}
